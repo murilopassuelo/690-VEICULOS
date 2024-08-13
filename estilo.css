@@ -2,10 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nosifer&family=Oswald:wght@300&display=swap');
 
-@font-face {
-    font-family: "idroid";
-    src: url("fontes/idroid.otf") format("opentype");
-}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 
 *{
     margin: 0px;
@@ -32,17 +31,20 @@ header{
 }
 
 h1#cabeçalho{
+font-family: "pt-serif";
  color: white;
  text-align: center;
- font-size: 2.5em;
+ font-size: 4em;
  font-weight: normal;
  text-shadow: 1px 2px 6px black;
  padding-top: 30px;
 }
 
 p#cabeçalho{
+    font-family: "pt-serif";
     color: white;
     text-align: center;
+    font-size: 1.3em;
     font-weight: normal;
     text-shadow: 1px 2px 6px black;
     margin-top: 10px;
@@ -103,9 +105,9 @@ div.video >iframe{
 }
 
 h1#principal{
-    color:  #1a5c37;
+    color: blue;
     border-radius: 2px;
-    font-family: "idroid";
+    font-family: 'Times New Roman', Times, serif;
     font-size: 1.8em;
     padding: 5px;
     margin-bottom: 20px;
@@ -113,10 +115,10 @@ h1#principal{
 }
 
 h2{
-    color: #2fa866;
-    background-image: linear-gradient(to right, #b9ffd88e, transparent);
+    color: blue;
+    background-image: linear-gradient(to right, rgba(44, 112, 214, 0.411) , transparent);
     border-radius: 2px;
-    font-family: "idroid";
+    font-family: "Bebas Neue";
     font-size: 1.5em;
     padding: 5px;
     margin-bottom: 20px;
@@ -133,6 +135,11 @@ p{
     font-size: 1em;
     text-indent: 20px;
     line-height: 1.4em;
+}
+
+p.contato{
+    font-family: "Bebas Neue";
+    font-size: 1.5em;
 }
 
 img{width: 100%;}
@@ -206,7 +213,7 @@ a:hover{
 }
 
 footer>p{
-    background-color: #063d1e;
+    background-color: rgb(48, 80, 170);
     color: white;
     text-align: center;
     margin: 30px 0px 0px 0px;
