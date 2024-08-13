@@ -118,7 +118,7 @@ h2{
     color: blue;
     background-image: linear-gradient(to right, rgba(44, 112, 214, 0.411) , transparent);
     border-radius: 2px;
-    font-family: "Bebas Neue";
+    font-family: "pt-serif";
     font-size: 1.5em;
     padding: 5px;
     margin-bottom: 20px;
@@ -137,6 +137,9 @@ p{
     line-height: 1.4em;
 }
 
+h2#contato{
+    font-size: 2em;
+}
 p.contato{
     font-family: "Bebas Neue";
     font-size: 1.5em;
