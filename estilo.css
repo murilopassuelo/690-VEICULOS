@@ -146,6 +146,15 @@ p.contato{
     font-size: 1.7em;
 }
 
+img#logo{
+    width: 200px;
+    height: 160px;
+
+    display: block;
+    margin: auto;
+    padding: 0px;
+}
+
 
 img#img1{
     display: block;
