@@ -104,14 +104,15 @@ div.video >iframe{
 
 }
 
-h1#principal{
-    color: blue;
+h2#principal{
+    color:blue;
+    background-image: linear-gradient(to right, rgba(44, 112, 214, 0.411) , transparent);
     border-radius: 2px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.8em;
+    font-family: "pt-serif";
+    font-size: 1.9em;
     padding: 5px;
     margin-bottom: 20px;
-    margin-top: 10px;
+    text-indent: 7px; 
 }
 
 h2{
@@ -126,26 +127,25 @@ h2{
 }
 
 p{
-    font-family: "Arial";
+    font-family: "Bebas Neue";
     font-weight: 500;
     text-align: justify;
     padding: 5px;
     margin-top: 20px;
     margin-bottom: 30px;
-    font-size: 1em;
+    font-size: 1.5em;
     text-indent: 20px;
     line-height: 1.4em;
 }
 
 h2#contato{
-    font-size: 2em;
+    font-size: 2.4em;
 }
 p.contato{
     font-family: "Bebas Neue";
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
-img{width: 100%;}
 
 img#img1{
     display: block;
