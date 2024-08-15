@@ -11,14 +11,7 @@
     padding: 0px;
 }
 
-:root{
-    --cor0: #c5ebd6;
-    --cor1: #83e1ad;
-    --cor2: #3ddc84;
-    --cor3: #2fa866;
-    --cor4: #1a5c37;
-    --cor5: #063d1e;
-}
+
 
 body{
     background-image: linear-gradient(to bottom, rgba(41, 70, 114, 0.822), rgba(44, 112, 214, 0.795), gray );
@@ -146,7 +139,11 @@ p.contato{
     font-size: 1.7em;
     margin-bottom: 15px;
     padding-top: 5px;
+    text-indent: 20px;
+    text-align: left;
 }
+
+
 
 img#logo{
     width: 200px;
