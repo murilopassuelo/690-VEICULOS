@@ -100,6 +100,10 @@ h2{
     text-indent: 7px; 
 }
 
+h2#loc{
+    font-size: 2em;
+}
+
 p{
     font-family: "Kanit";
     font-weight: 0;
@@ -212,6 +216,15 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+a#loc{
+    color: blue;
+}
+
+a#loc:hover{
+    text-decoration: underline;
+    color: rgb(40, 62, 187);
 }
 
 footer>p{
